@@ -1,0 +1,33 @@
+{
+  "name": "goit-js-hw-12-http--request",
+  "version": "1.0.0",
+  "description": "HTTP-request",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-12-http--request/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galka-travinskaya/goit-js-hw-12-http--request.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galka-travinskaya/goit-js-hw-12-http--request/issues"
+  },
+  "homepage": "https://github.com/galka-travinskaya/goit-js-hw-12-http--request#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
